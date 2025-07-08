@@ -1,0 +1,7 @@
+.cursor
+package-lock.json
+node_modules/
+.env.local
+
+camera/.firebaserc
+hunt-website/.firebase/hosting.YnVpbGQ.cache
