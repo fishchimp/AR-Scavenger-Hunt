@@ -4,7 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "site": "gdsc-ar-hunt-camera",
+    "site": "gdganu-ar-hunt-camera",
     "public": "build",
     "ignore": [
       "firebase.json",

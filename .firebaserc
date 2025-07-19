@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "gdganu-ar-hunt",
+    "prod": "gdganu-ar-hunt"
+  },
+  "targets": {},
+  "etags": {}
+}

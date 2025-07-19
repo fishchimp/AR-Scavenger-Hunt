@@ -12,16 +12,17 @@ function Home() {
         Welcome
       </div>
       <p className="text-md center pb-md">
-        Find all the GDSC posters/markers around the campus, meeting all the iconic food that have made their way to USYD. Collect the most points and win prizes!
+        Find all the GDG posters/markers around the campus, meeting all the iconic food that have made their way to ANU. Collect the most points and win prizes!
       </p>
-      <Button  size={20} back_color="#4285F4" color="#FFFFFF" redirect={"https://gdsc-ar-hunt-camera.web.app/"}>Play Now</Button>
+      <Button  size={20} back_color="#4285F4" color="#FFFFFF" redirect={"https://gdganu-ar-hunt-camera.web.app/"}>Play Now</Button>
       <Button  size={15} redirect={"/Stats"}>Leaderboard</Button>
       <Button  size={15} redirect={"/Clues"}>Clues</Button>
       <Button  size={15} redirect={"/Rules"}>Rules / Tips</Button>
       <div className="pb-md"></div>
 
       <p className="text-sm center">
-      © Google Developer Student Club - The University of Sydney
+        © Google Developer Group on Campus - The Australian National University,<br/>
+        with support from Google Developer Group on Campus - The University of Sydney.
       </p>
 
     </div>

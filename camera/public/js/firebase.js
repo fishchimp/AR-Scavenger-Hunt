@@ -8,15 +8,22 @@ import { getFirestore } from "https://www.gstatic.com/firebasejs/9.18.0/firebase
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "INSERT_YOUR_FIREBASE_API_KEY",
-  authDomain: "gdsc-ar-hunt.firebaseapp.com",
-  databaseURL: "https://gdsc-ar-hunt-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "gdsc-ar-hunt",
-  storageBucket: "gdsc-ar-hunt.appspot.com",
-  messagingSenderId: "596515515464",
-  appId: "1:596515515464:web:1b7b269edc62b4a4b9bc7d",
-  measurementId: "G-8Q1ERYEXNG"
+  apiKey: window.env?.FIREBASE_API_KEY,
+  authDomain: window.env?.FIREBASE_AUTH_DOMAIN,
+  databaseURL: window.env?.FIREBASE_DATABASE_URL,
+  projectId: window.env?.FIREBASE_PROJECT_ID,
+  storageBucket: window.env?.FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: window.env?.FIREBASE_MESSAGING_SENDER_ID,
+  appId: window.env?.FIREBASE_APP_ID,
+  measurementId: window.env?.FIREBASE_MEASUREMENT_ID
 };
+
+// Optional: Warn if any config value is missing
+Object.entries(firebaseConfig).forEach(([key, value]) => {
+  if (!value) {
+    console.warn(`Firebase config missing: ${key}`);
+  }
+});
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);

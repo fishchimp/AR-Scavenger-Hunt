@@ -1,10 +1,8 @@
-# Firebase/React build and cache files
-/build
-/dist
-.firebase/
-.firebase/hosting*.cache
-firebase-debug.log
-firebase-debug.*.log
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Environment files
 .env
@@ -12,23 +10,17 @@ firebase-debug.*.log
 .env.development.local
 .env.test.local
 .env.production.local
+*.local
 
-# Dependency directories
-/node_modules
-node_modules/
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-.pnpm-debug.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
+# Build outputs
+/lib
+/dist
+/build
 
 # Coverage directory used by tools like istanbul
 coverage/
@@ -52,17 +44,11 @@ coverage/
 # Yarn Integrity file
 .yarn-integrity
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache
-.parcel-cache
-
-# Storybook build outputs
-.out
-.storybook-out
-
-# Temporary folders
-tmp/
-temp/
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
 
 # OS generated files
 .DS_Store
@@ -84,3 +70,7 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Temporary folders
+tmp/
+temp/
