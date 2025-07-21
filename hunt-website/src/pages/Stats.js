@@ -77,7 +77,7 @@ function Stats() {
 
       {userInfo && position && 
         <div className="shadow_box mb-md" id="info">
-          <div className="center-tag round-border yellow-back white-text">You achievements</div>
+          <div className="center-tag round-border yellow-back white-text">Your achievements</div>
           <p className="text-md">Points: {userInfo.points}pts</p>
           {position.status === "NONE" && <p className="text-md">Earn more than 500pts to compete in the leaderboard</p>}
           {position.status !== "NONE" &&
