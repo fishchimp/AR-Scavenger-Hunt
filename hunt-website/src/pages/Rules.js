@@ -77,7 +77,7 @@ function Rules() {
         Start playing now!
       </div>
       {user && 
-        <Button  size={20} back_color="#4285F4" color="#FFFFFF" redirect={"https://gdsc-ar-hunt-camera.web.app/"}>Play Now</Button>
+        <Button  size={20} back_color="#4285F4" color="#FFFFFF" redirect={"https://gdganu-ar-hunt-camera.web.app/"}>Play Now</Button>
       }
       {!user &&
         <Button  size={20} back_color="#4285F4" color="#FFFFFF" redirect={"./SignIn"}>Play Now</Button>
