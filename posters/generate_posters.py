@@ -9,7 +9,7 @@ marker_size = 1000
 
 qrcode_x = 208
 qrcode_y = 1677
-qrcode_size = 288
+qrcode_size = 250
 
 number_x = 1360
 number_y = 20
