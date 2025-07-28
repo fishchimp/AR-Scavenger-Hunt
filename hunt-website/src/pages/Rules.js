@@ -63,9 +63,9 @@ function Rules() {
           Once you log into your Google account, you can begin scanning posters and earning points. The rules for points and prizes are as follows:<br/>
         </p>
         <ul id="list" className="left text-md pb-sm">
-          <li>★ Scanner posters earlier in the competition rewards more points, initially 200pts. So get in fast to get bonus points.</li>
+          <li>★ Scanning posters earlier in the competition rewards more points, initially 200pts. So get in fast to get bonus points.</li>
           <li>★ Once you earn 500pts you can enter the leaderboard</li>
-          <li>★ There are 5 tiers of prizes 'Grand', 'High', 'Medium', 'Low'. See the GDSC Scavenger Hunt facebook post for the prizes.</li>
+          <li>★ There are 3 prizes to be won. See the GDG ANU Scavenger Hunt Instagram post for the prizes.</li>
           <li>★ At the end of the competition, scanning posters will not grant more points. Winners will be announced shortly after.</li>
           </ul>
       </div>
