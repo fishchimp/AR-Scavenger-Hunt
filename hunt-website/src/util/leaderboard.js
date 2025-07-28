@@ -74,10 +74,9 @@ function getPosition(leaderboard, userInfo) {
     }
 
     let status = "";
-    if (pos === 1) status = "GRAND"
-    else if (pos <= 5) status = "HIGH"
-    else if (pos  <= 10) status = "MEDIUM"
-    else if (pos <= 20) status = "LOW"
+    if (pos === 1) status = "1st prize";
+    else if (pos === 2) status = "2nd prize";
+    else if (pos === 3) status = "3rd prize";
     else status = "NONE";
 
     return {pos:pos, next:next, status:status};
