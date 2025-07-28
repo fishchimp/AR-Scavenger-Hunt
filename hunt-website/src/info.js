@@ -15,7 +15,7 @@ const markerInfo = [
     id: "1",
     name: "Sub Sandwich",
     description: "A Subway sandwich: it's like a food assembly line where even your sandwich gets a personalized makeover!",
-    clue: "Big, glassy, and echoing with applause — where music rises and silence falls.",
+    clue: "Fuel up here before—or let’s be honest, after a gym sesh. This spot is equal parts pre-workout and procrastination.",
     model_name: "sub_sandwich",
     scale: 1,
     rotation: "0 0 0",
@@ -63,7 +63,7 @@ const markerInfo = [
   },
   {
     id: "6",
-    name: "Chinese Take_Out",
+    name: "Chinese Take Out",
     description: "Neatly packed in a box, these flavours of the East await your chopsticks!",
     clue: "There’s nothing more refreshing than a quick swim after lectures.",
     model_name: "chinese_take_out",

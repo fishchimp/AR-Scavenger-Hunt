@@ -15,7 +15,7 @@ const markerInfo = [
     id: "1",
     name: "Sub Sandwich",
     description: "A Subway sandwich: it's like a food assembly line where even your sandwich gets a personalized makeover!",
-    clue: "Big, glassy, and echoing with applause — where music rises and silence falls.",
+    clue: "Fuel up here before—or let’s be honest, after a gym sesh. This spot is equal parts pre-workout and procrastination.",
     model_name: "sub_sandwich",
     scale: 0.35,
     rotation: "0 -90 0",
@@ -113,7 +113,7 @@ const markerInfo = [
   },
   {
     id: "11",
-    name: "Avocado on Toast",
+    name: "Avocado Toast",
     description: "A trendy and healthy dish made by spreading creamy avocado on crispy toast, often topped with a variety of delicious seasonings and toppings.",
     clue: "Possibly the only place on campus where you can get a sandwich, sunshine, and biology all in one go.",
     model_name: "avocado_toast",
