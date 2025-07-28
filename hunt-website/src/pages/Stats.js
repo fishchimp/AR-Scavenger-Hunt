@@ -84,7 +84,6 @@ function Stats() {
             <>
               <p className="text-md">Position: {position.pos}</p>
               <p className="text-md">Prize-tier level: {position.status}</p>
-              <p className="text-md">Unlock next tier by earning: {position.next}pts</p>
             </>
           }
         </div>
